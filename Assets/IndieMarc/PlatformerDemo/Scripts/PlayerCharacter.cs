@@ -397,15 +397,15 @@ namespace IndieMarc.Platformer
                 return new Vector2(Mathf.Abs(transform.localScale.x) * capsule_coll.size.x, Mathf.Abs(transform.localScale.y) * capsule_coll.size.y);
             return new Vector2(Mathf.Abs(transform.localScale.x), Mathf.Abs(transform.localScale.y));
         }
-        
+
         private void OnCollisionEnter2D(Collision2D collision)
         {
             if (is_dead)
                 return;
-            
+
         }
 
-        public static PlayerCharacter GetNearest(Vector3 pos, float range = 99999f, bool alive_only=false)
+        public static PlayerCharacter GetNearest(Vector3 pos, float range = 99999f, bool alive_only = false)
         {
             PlayerCharacter nearest = null;
             float min_dist = range;

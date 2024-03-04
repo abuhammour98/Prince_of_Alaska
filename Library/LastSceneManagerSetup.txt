@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity
+- path: Assets/Prince_Alaska/Prince_Alaska/Prince_of_Alasska.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
